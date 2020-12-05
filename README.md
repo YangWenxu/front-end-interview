@@ -14,11 +14,11 @@
 
 [javascript基础面试总结3](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/js-base-interview3.md)
 
-[css基础面试总结](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/css-base-interview1.md)
+[css基础面试总结](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/css-base-interview.md)
 
-[vuejs基础面试总结](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/vuejs-base-interview1.md)
+[vuejs基础面试总结](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/vuejs-base-interview.md)
 
-[reactjs基础面试总结](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/reactjs-base-interview1.md)
+[reactjs基础面试总结](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/reactjs-base-interview.md)
 
 [浏览器网络相关](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/浏览器网络相关.md)
 
