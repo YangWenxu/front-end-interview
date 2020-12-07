@@ -4,10 +4,13 @@ tags: css
 categories: interview
 ---
 
+1. 基础：position，盒子模型，display，BFC，清除浮动，选择器，层叠上下文
+
+2. 水平垂直居中，三栏布局，**flex布局**
+
+
 <!--more-->
 
-1. 基础：position，盒子模型，display，BFC，清除浮动，选择器，层叠上下文
-2. 水平垂直居中，三栏布局，**flex布局**
 
 ## position
 
