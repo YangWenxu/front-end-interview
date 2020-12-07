@@ -1,6 +1,7 @@
 ---
 title: js基础面试题3
 tags: javascript
+categories: interview
 ---
 
 全情投入，专注极致，刻意练习，守正出奇，未闻花名，愿等花开
