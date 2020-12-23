@@ -18,25 +18,23 @@ categories: interview
 
 *3. 卸载阶段：*这是组件生命周期的最后阶段，组件被销毁并从 DOM 中删除。
 
-**componentWillMount**：在创建组件之后但在将其渲染到DOM中之前调用
-**componentDidMount**：在第一个渲染之后调用；组件的DOM元素现在可用
-**componentWillReceiveProps**：当属性更新时调用
-**shouldComponentUpdate**：当收到新props时，此方法可以防止重新渲染以优化性能
-**componentWillUpdate**：在收到新的props并且ComponentUpdate返回true时调用
-**componentDidUpdate**：在组件更新后调用
-**componentWillUnmount**：在组件从DOM中移除之前调用，允许您清理事件侦听器之类的
+​	**componentWillMount**：在创建组件之后但在将其渲染到DOM中之前调用
+​	**componentDidMount**：在第一个渲染之后调用；组件的DOM元素现在可用
+​	**componentWillReceiveProps**：当属性更新时调用
+​	**shouldComponentUpdate**：当收到新props时，此方法可以防止重新渲染以优化性能
+​	**componentWillUpdate**：在收到新的props并且ComponentUpdate返回true时调用
+​	**componentDidUpdate**：在组件更新后调用
+​	**componentWillUnmount**：在组件从DOM中移除之前调用，允许您清理事件侦听器之类的
 
-React v16.3新引⼊了两个新的⽣命周期函 数：
-**getDerivedStateFromProps**，**getSnapshotBeforeUpdate**
+  React v16.3新引⼊了两个新的⽣命周期函 数：
+  **getDerivedStateFromProps**，**getSnapshotBeforeUpdate**
 
-**getDerivedStateFromProps** 会在调⽤ render ⽅法之前调⽤，并且在初始挂载及后续更新时都会被调⽤。它应返回⼀个对象来更新
-state，如果返回 null 则不更新任何内容。
+  **getDerivedStateFromProps** 会在调⽤ render ⽅法之前调⽤，并且在初始挂载及后续更新时都会被调⽤。它应返回⼀个对象来更新
+  state，如果返回 null 则不更新任何内容。
 
-**getSnapshotBeforeUpdate** 在最近⼀次渲染输出（提交到 DOM 节点）之前调⽤。它使得组件能在发⽣更改之前从 DOM 中 捕获⼀些信息（例如，滚动位置）。此⽣命周期的任何返回值将作 为参数传递给 componentDidUpdate()。
+  **getSnapshotBeforeUpdate** 在最近⼀次渲染输出（提交到 DOM 节点）之前调⽤。它使得组件能在发⽣更改之前从 DOM 中 捕获⼀    些信息（例如，滚动位置）。此⽣命周期的任何返回值将作 为参数传递给 componentDidUpdate()。
 
-V17可能会废弃的三个⽣命周期函数⽤**getDerivedStateFromProps** 替代，
-
-⽬前使⽤的话加上UNSAFE_：**componentWillMount**  **componentWillReceiveProps** **componentWillUpdate**
+   V17可能会废弃的三个⽣命周期函数⽤**getDerivedStateFromProps** 替代，⽬前使⽤的话加上UNSAFE_：**componentWillMount**  **componentWillReceiveProps** **componentWillUpdate**
 
 ## 类组件和函数式组件
 
@@ -53,15 +51,15 @@ V17可能会废弃的三个⽣命周期函数⽤**getDerivedStateFromProps** 替
 - useState
 
 - usEffect
-	React Hooks 提供了 Effect Hook，可以在函数组件中执行副作用操作，并且是在函数渲染	DOM完成后执行副作用操作。
+	   React Hooks 提供了 Effect Hook，可以在函数组件中执行副作用操作，并且是在函数渲染	DOM完成后执行副作用操作。
 	
 - useContext
 
-  跨层级组件通讯
+    跨层级组件通讯
 
-  Provider：外层提供数据的组件 
+    Provider：外层提供数据的组件 
 
-  Consumer ：内层获取数据的组件
+    Consumer ：内层获取数据的组件
 
 - useReducer
 
@@ -74,6 +72,14 @@ V17可能会废弃的三个⽣命周期函数⽤**getDerivedStateFromProps** 替
 - useImperativeHandle
 
 - useLayoutEffect
+
+## react的refs
+
+Refs 是 React 中引用的简写。它是一个有助于存储对特定的 React 元素或组件的引用的属性，它将由组件渲染配置函数返回。用于对 render() 返回的特定元素或组件的引用。当需要进行 DOM 测量或向组件添加方法时，它们会派上用场。以下是应该使用 refs 的情况：
+
+- 需要管理焦点、选择文本或媒体播放时
+- 触发式动画
+- 与第三方 DOM 库集成
 
 ## redux
 
