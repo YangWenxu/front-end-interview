@@ -4,7 +4,7 @@
  * @Author: yangwenxu
  * @Date: 2020-12-07 09:31:23
  * @LastEditors: yangwenxu
- * @LastEditTime: 2020-12-23 15:24:31
+ * @LastEditTime: 2020-12-23 17:31:56
 -->
 # front-end-interview
 
@@ -32,7 +32,5 @@
 [浏览器网络相关](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/浏览器网络相关.md)
 
 [前端性能优化](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/前端性能优化.md)
-
-[设计模式](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/设计模式.md)
 
 [字节前端面经](https://github.com/YangWenxu/front-end-interview/blob/main/postSource/字节前端面经.md)
