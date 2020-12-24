@@ -60,7 +60,7 @@ css 中，盒模型分为 content、padding、border、margin四部分，又有�
 
 ### 水平垂直居中
 
-- ### flex
+- #### flex
 
 ```css
 .parent {
@@ -78,7 +78,7 @@ css 中，盒模型分为 content、padding、border、margin四部分，又有�
     height: 150px;
 }
 ```
-- ### transform(css3属性)
+- #### transform(css3属性)
 
 ```css
 .parent {
@@ -99,7 +99,7 @@ css 中，盒模型分为 content、padding、border、margin四部分，又有�
 }
 
 ```
-- ### margin负值
+- #### margin负值
 
 ```css
 .parent {
@@ -121,7 +121,7 @@ css 中，盒模型分为 content、padding、border、margin四部分，又有�
 }
 
 ```
-- ### absolute和margin
+- #### absolute和margin
 
 ```css
 .parent-absolute-margin {
